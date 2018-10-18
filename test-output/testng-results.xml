@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="95587" started-at="2018-10-18T17:47:07Z" finished-at="2018-10-18T17:48:42Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="95587" started-at="2018-10-18T17:47:07Z" finished-at="2018-10-18T17:48:42Z">
+      <class name="TestCases.VerifyLoginBoxClose">
+        <test-method status="PASS" signature="nameBefore(java.lang.reflect.Method)[pri:0, instance:TestCases.VerifyLoginBoxClose@cc285f4]" name="nameBefore" is-config="true" duration-ms="19" started-at="2018-10-18T10:47:07Z" finished-at="2018-10-18T10:47:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.VerifyLoginBoxClose.VerifyClickClose() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nameBefore -->
+        <test-method status="PASS" signature="VerifyClickClose()[pri:0, instance:TestCases.VerifyLoginBoxClose@cc285f4]" name="VerifyClickClose" duration-ms="49600" started-at="2018-10-18T10:47:07Z" finished-at="2018-10-18T10:47:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyClickClose -->
+        <test-method status="PASS" signature="nameBefore(java.lang.reflect.Method)[pri:0, instance:TestCases.VerifyLoginBoxClose@cc285f4]" name="nameBefore" is-config="true" duration-ms="1" started-at="2018-10-18T10:47:56Z" finished-at="2018-10-18T10:47:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.VerifyLoginBoxClose.VerifyEscClose()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nameBefore -->
+        <test-method status="PASS" signature="VerifyEscClose()[pri:0, instance:TestCases.VerifyLoginBoxClose@cc285f4]" name="VerifyEscClose" duration-ms="24933" started-at="2018-10-18T10:47:56Z" finished-at="2018-10-18T10:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyEscClose -->
+      </class> <!-- TestCases.VerifyLoginBoxClose -->
+      <class name="TestCases.VerifyLogin">
+        <test-method status="PASS" signature="nameBefore(java.lang.reflect.Method)[pri:0, instance:TestCases.VerifyLogin@55f3ddb1]" name="nameBefore" is-config="true" duration-ms="1" started-at="2018-10-18T10:48:21Z" finished-at="2018-10-18T10:48:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.VerifyLogin.VerifyValidLogin() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nameBefore -->
+        <test-method status="PASS" signature="VerifyValidLogin()[pri:0, instance:TestCases.VerifyLogin@55f3ddb1]" name="VerifyValidLogin" duration-ms="20926" started-at="2018-10-18T10:48:21Z" finished-at="2018-10-18T10:48:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyValidLogin -->
+      </class> <!-- TestCases.VerifyLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
