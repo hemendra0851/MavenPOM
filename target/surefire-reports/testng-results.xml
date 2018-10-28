@@ -2,12 +2,16 @@
 <testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="MavenPOM Suite" duration-ms="61869" started-at="2018-10-18T18:15:28Z" finished-at="2018-10-18T18:16:30Z">
+  <suite name="MavenPOM Suite" duration-ms="77337" started-at="2018-10-20T16:05:54Z" finished-at="2018-10-20T16:07:11Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="61869" started-at="2018-10-18T18:15:28Z" finished-at="2018-10-18T18:16:30Z">
+    <test name="Test" duration-ms="77337" started-at="2018-10-20T16:05:54Z" finished-at="2018-10-20T16:07:11Z">
       <class name="TestCases.VerifyLoginBoxClose">
-        <test-method status="PASS" signature="nameBefore(java.lang.reflect.Method)[pri:0, instance:TestCases.VerifyLoginBoxClose@3567135c]" name="nameBefore" is-config="true" duration-ms="0" started-at="2018-10-18T11:15:51Z" finished-at="2018-10-18T11:15:51Z">
+        <test-method status="PASS" signature="VerifyClickClose()[pri:0, instance:TestCases.VerifyLoginBoxClose@327471b5]" name="VerifyClickClose" duration-ms="15880" started-at="2018-10-20T21:36:39Z" finished-at="2018-10-20T21:36:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyClickClose -->
+        <test-method status="PASS" signature="nameBefore(java.lang.reflect.Method)[pri:0, instance:TestCases.VerifyLoginBoxClose@327471b5]" name="nameBefore" is-config="true" duration-ms="0" started-at="2018-10-20T21:36:39Z" finished-at="2018-10-20T21:36:39Z">
           <params>
             <param index="0">
               <value>
@@ -18,11 +22,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- nameBefore -->
-        <test-method status="PASS" signature="VerifyClickClose()[pri:0, instance:TestCases.VerifyLoginBoxClose@3567135c]" name="VerifyClickClose" duration-ms="20885" started-at="2018-10-18T11:15:51Z" finished-at="2018-10-18T11:16:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyClickClose -->
-        <test-method status="PASS" signature="nameBefore(java.lang.reflect.Method)[pri:0, instance:TestCases.VerifyLoginBoxClose@3567135c]" name="nameBefore" is-config="true" duration-ms="0" started-at="2018-10-18T11:16:12Z" finished-at="2018-10-18T11:16:12Z">
+        <test-method status="PASS" signature="nameBefore(java.lang.reflect.Method)[pri:0, instance:TestCases.VerifyLoginBoxClose@327471b5]" name="nameBefore" is-config="true" duration-ms="0" started-at="2018-10-20T21:36:55Z" finished-at="2018-10-20T21:36:55Z">
           <params>
             <param index="0">
               <value>
@@ -33,13 +33,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- nameBefore -->
-        <test-method status="PASS" signature="VerifyEscClose()[pri:0, instance:TestCases.VerifyLoginBoxClose@3567135c]" name="VerifyEscClose" duration-ms="17570" started-at="2018-10-18T11:16:12Z" finished-at="2018-10-18T11:16:30Z">
+        <test-method status="PASS" signature="VerifyEscClose()[pri:0, instance:TestCases.VerifyLoginBoxClose@327471b5]" name="VerifyEscClose" duration-ms="15978" started-at="2018-10-20T21:36:55Z" finished-at="2018-10-20T21:37:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyEscClose -->
       </class> <!-- TestCases.VerifyLoginBoxClose -->
       <class name="TestCases.VerifyLogin">
-        <test-method status="PASS" signature="nameBefore(java.lang.reflect.Method)[pri:0, instance:TestCases.VerifyLogin@6be46e8f]" name="nameBefore" is-config="true" duration-ms="20" started-at="2018-10-18T11:15:28Z" finished-at="2018-10-18T11:15:28Z">
+        <test-method status="PASS" signature="nameBefore(java.lang.reflect.Method)[pri:0, instance:TestCases.VerifyLogin@3567135c]" name="nameBefore" is-config="true" duration-ms="7" started-at="2018-10-20T21:35:54Z" finished-at="2018-10-20T21:35:54Z">
           <params>
             <param index="0">
               <value>
@@ -50,7 +50,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- nameBefore -->
-        <test-method status="PASS" signature="VerifyValidLogin()[pri:0, instance:TestCases.VerifyLogin@6be46e8f]" name="VerifyValidLogin" duration-ms="23369" started-at="2018-10-18T11:15:28Z" finished-at="2018-10-18T11:15:51Z">
+        <test-method status="PASS" signature="VerifyValidLogin()[pri:0, instance:TestCases.VerifyLogin@3567135c]" name="VerifyValidLogin" duration-ms="45454" started-at="2018-10-20T21:35:54Z" finished-at="2018-10-20T21:36:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyValidLogin -->
